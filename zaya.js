@@ -5,7 +5,7 @@ $(document).ready(initAll);
 	var clickIndex = 0;
 
 function initAll() {
-	$('nav ul li a.op').click(function(event){
+	$('nav ul li a').click(function(event){
 		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
 
@@ -123,3 +123,17 @@ function lightBox() {
 	// });
 
 }
+
+// function slickRun() {
+// 	console.log("slick is runnin")
+// 	$('#mySlider').slick({
+// 		dots: true,
+// 		arrows: true,
+// 		autoplay: true,
+// 		infinite: true,
+// 		speed: 500,
+// 		fade: true,
+// 		adaptiveHeight: true,
+// 		cssEase: 'linear'
+// 	});
+// }
