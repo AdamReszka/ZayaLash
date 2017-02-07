@@ -1,3 +1,4 @@
+@charset "utf-8";
 html {
 	height: 100%;
 }
@@ -91,6 +92,14 @@ body {
 .foto-switch:hover {
 	color: #fff;
 	cursor: pointer;
+}
+.fa-chevron-left {
+	font-family: 'FontAwesome';
+ 	src: url('../font/fontawesome-webfont.eot');
+}
+.fa-chevron-right {
+	font-family: 'FontAwesome';
+ 	src: url('../font/fontawesome-webfont.eot');
 }
 .main-video {
 	width: 1920px;
@@ -268,7 +277,8 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	color: #fff;
 	text-align: center;
 	display: block;
-
+	font-family: 'FontAwesome';
+	src: url('../font/fontawesome-webfont.eot');
 	font-size: 50px;
 
 }
@@ -316,6 +326,8 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	color: #fff;
 	font-size: 36px;
 	display: block;
+	font-family: 'FontAwesome';
+	src: url('../font/fontawesome-webfont.eot');
 }
 .fa-search:hover {
 	color: #efd1b9;
