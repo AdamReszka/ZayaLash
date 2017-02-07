@@ -15,10 +15,10 @@ function initAll() {
 	});
 	$('#move-arrow').click(function(event){
 		event.preventDefault();
-		// $("html body").animate({
-		// 	scrollTop: $(".row-gap").offset().top - 240
-		// }, 1000)
-		console.log('arrow clicked');
+		$("html body").animate({
+			scrollTop: $(".row-gap").offset().top - 240
+		}, 1000)
+		// console.log('arrow clicked');
 	});
 	setHeight();
 	resizeMe();
