@@ -6,6 +6,7 @@ $(document).ready(initAll);
 
 function initAll() {
 	$('nav ul li a.op').click(function(event){
+		event = event || window.event;
 		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
 
@@ -14,6 +15,7 @@ function initAll() {
 		}, 1000)
 	});
 	$('#move-arrow').click(function(event){
+		event = event || window.event;
 		event.preventDefault();
 		$("html body").animate({
 			scrollTop: $(".row-gap").offset().top - 240
