@@ -964,6 +964,7 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	margin-top: 5px;
 }
 
+
 @media screen and (max-width: 900px) {
 	.top-buttons {
 		display: none;
@@ -978,7 +979,7 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 		display: none;
 	}
 	.top-title {
-		padding: 0 5px;
+		padding: 0;
 	}
 	.anchor-op {
 		margin: 0;
