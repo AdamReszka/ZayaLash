@@ -5,6 +5,7 @@ $(document).ready(initAll);
 	var clickIndex = 0;
 
 function initAll() {
+	console.log('ok');
 	$('nav ul li a.op').click(function(event){
 		event = event || window.event;
 		event.preventDefault();
@@ -25,6 +26,7 @@ function initAll() {
 	setHeight();
 	resizeMe();
 	lightBox();
+	burgerMenu();
 	// slickRun();
 	
 };
@@ -125,4 +127,23 @@ function lightBox() {
 	// 	alert('ok');
 	// });
 
+}
+
+function burgerMenu() {
+	console.log("function was started");
+	$("a").on('click', function(event) {
+		event.preventDefault();
+	});
+	$("#hamburger").on('click', function(event){
+		event.preventDefault();
+		if ($(this).closest('#main-container-first').find('#burger-ul').hasClass('open')) {
+			$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').slideUp();
+			$(this).closest('#main-container-first').find('#burger-ul').slideUp();
+		} else {
+			$(this).closest('#main-container-first').find('#burger-ul').slideDown();
+			$(this).closest('#main-container-first').find('#burger-ul').addClass('open');
+			
+		}
+		
+	});
 }
