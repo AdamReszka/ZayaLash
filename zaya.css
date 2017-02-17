@@ -979,7 +979,7 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 		display: none;
 	}
 	.top-title {
-		padding: 0;
+		padding: 0 0 0 5px;
 	}
 	.anchor-op {
 		margin: 0;
