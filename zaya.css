@@ -950,3 +950,24 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 .footer-priv {
 	background-color: #140c08;
 }
+
+.burger-nav {
+	display: none;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	right: 10px;
+}
+.burger-img {
+	width: 50px;
+	height: 50px;
+}
+
+@media screen and (max-width: 900px) {
+	.top-buttons {
+		display: none;
+	}
+	.burger-nav {
+		display: block;
+	}
+}
