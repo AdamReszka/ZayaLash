@@ -959,9 +959,9 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	right: 10px;
 }
 .burger-img {
-	width: 44px;
-	height: 44px;
-	margin-top: 3px;
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
 }
 
 @media screen and (max-width: 900px) {
@@ -976,5 +976,8 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 @media screen and (max-width: 480px) {
 	.faceb-img {
 		display: none;
+	}
+	.top-title {
+		padding: 0 5px;
 	}
 }
