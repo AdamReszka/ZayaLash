@@ -109,6 +109,7 @@ body {
 	margin: 0;
 	padding: 0;
 	float: left;
+	display: block;
 }
 .video-cont {
 	position: fixed;
@@ -132,6 +133,16 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 .video-cont-clicked {
 	height: 30%;
 	transition: 0.5s;
+}
+.mobile-video {
+	width: 360px;
+	height: 640px;
+	overflow: hidden;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: none;
 }
 .row-one {
 	position: relative;
@@ -1020,5 +1031,11 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	.anchor-op {
 		margin: 0;
 		padding: 0;
+	}
+	.main-video {
+		display: none;
+	}
+	.mobile-video {
+		display: block;
 	}
 }
