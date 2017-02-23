@@ -7,10 +7,11 @@ $(document).ready(initAll);
 
 function initAll() {
 	console.log('ok');
-	$('ul li a.op').click(function(event){
+	$('ul li .op').click(function(event){
 		$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
 		$(this).closest('#main-container-first').find('#burger-ul').fadeOut();
 		event = event || window.event;
+		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
 
 		$("html,body").animate({
@@ -138,6 +139,7 @@ function burgerMenu() {
 	});
 	$("#hamburger").on('click', function(event){
 		event.preventDefault();
+		$(this).closest('#homeSection').find("#main-navigate").toggleClass('nav-darken-two');
 		if ($(this).closest('#main-container-first').find('#burger-ul').hasClass('open')) {
 			$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
 			$(this).closest('#main-container-first').find('#burger-ul').fadeOut();
