@@ -1099,10 +1099,6 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 		width: 180px;
 		height: 180px;
 	}
-	.video-cont {
-		background-image: url('images/sun-mobile.jpg');
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
+	
 
 }
