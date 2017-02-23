@@ -1113,8 +1113,26 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	.butt-soc:hover{
 	background-color: rgba(0,0,0,0); 
 	}
-	.add-soc {
+	#burger-ul li.add-soc {
 		display: block;
+		padding: 0;
+		height: 50px;
+	} 
+	.add-soc a.anchor{
+		display: block;
+		color: #fff;
+		height: 50px;
+		width: 50px;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+	}
+	.add-soc a.anchor img {
+		display: block;
+		width: 40px;
+		height: 40px;
+		padding: 5px;
+		margin: 0;
 	}
 
 
