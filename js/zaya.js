@@ -4,9 +4,12 @@ $(document).ready(initAll);
 	var moveCounter = 1;
 	var clickIndex = 0;
 
+
 function initAll() {
 	console.log('ok');
 	$('ul li a.op').click(function(event){
+		$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
+		$(this).closest('#main-container-first').find('#burger-ul').fadeOut();
 		event = event || window.event;
 		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
@@ -147,3 +150,4 @@ function burgerMenu() {
 		
 	});
 }
+
