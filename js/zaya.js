@@ -6,7 +6,7 @@ $(document).ready(initAll);
 
 function initAll() {
 	console.log('ok');
-	$('nav ul li a.op').click(function(event){
+	$('ul li a.op').click(function(event){
 		event = event || window.event;
 		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
