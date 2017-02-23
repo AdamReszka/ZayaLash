@@ -49,7 +49,7 @@ $('#main-view').height($(window).innerHeight());
 
 
 $(document).ready(function() {
-	var NavY = $('.row-gap').offset().top;
+	var NavY = $('.row-two').offset().top;
 	var stickyNav = function(){
 	var scrollY = $(window).scrollTop();
 	if (scrollY >= NavY) { 
