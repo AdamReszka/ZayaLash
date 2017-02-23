@@ -1023,6 +1023,10 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	.row-two {
 		width: 100%;
 	}
+	.row-gap {
+		height: 40vh;
+		background-position: left;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -1062,6 +1066,9 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	}
 	.row-two {
 		font-size: 50px;
+	}
+	.row-gap {
+		font-size: 60px;
 	}
 }
 @media screen and (max-width: 480px) {
