@@ -11,7 +11,6 @@ function initAll() {
 		$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
 		$(this).closest('#main-container-first').find('#burger-ul').fadeOut();
 		event = event || window.event;
-		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
 
 		$("html,body").animate({
