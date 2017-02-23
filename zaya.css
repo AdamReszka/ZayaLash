@@ -1015,7 +1015,11 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 .open {
     display: block !important; 
 }
-
+@media screen and (max-width: 1200px) {
+	.row-one {
+		width: 100%;
+	}
+}
 
 @media screen and (max-width: 900px) {
 	body {
