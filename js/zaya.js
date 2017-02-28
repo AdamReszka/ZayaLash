@@ -8,8 +8,8 @@ $(document).ready(initAll);
 function initAll() {
 	console.log('ok');
 	$('ul li .op').click(function(event){
-		$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
-		$(this).closest('#main-container-first').find('#burger-ul').fadeOut();
+		$(this).closest('body').find('#burger-ul').removeClass('open').fadeOut();
+		$(this).closest('body').find('#burger-ul').fadeOut();
 		event = event || window.event;
 		var sectionID = event.currentTarget.id + "Section";
 
@@ -133,17 +133,18 @@ function lightBox() {
 
 function burgerMenu() {
 	console.log("function was started");
-	// $("a").on('click', function(event) {
-	// });
+	$("a").on('click', function(event) {
+		event.preventDefault();
+	});
 	$("#hamburger").on('click', function(event){
-		// event.preventDefault();
-		$(this).closest('#homeSection').find("#main-navigate").toggleClass('nav-darken-two');
-		if ($(this).closest('#main-container-first').find('#burger-ul').hasClass('open')) {
-			$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
-			$(this).closest('#main-container-first').find('#burger-ul').fadeOut();
+		event.preventDefault();
+		$(this).closest('#homeSection').find("body").toggleClass('nav-darken-two');
+		if ($(this).closest('body').find('#burger-ul').hasClass('open')) {
+			$(this).closest('body').find('#burger-ul').removeClass('open').fadeOut();
+			$(this).closest('body').find('#burger-ul').fadeOut();
 		} else {
-			$(this).closest('#main-container-first').find('#burger-ul').fadeIn();
-			$(this).closest('#main-container-first').find('#burger-ul').addClass('open');
+			$(this).closest('body').find('#burger-ul').fadeIn();
+			$(this).closest('body').find('#burger-ul').addClass('open');
 			
 		}
 		
