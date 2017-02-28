@@ -1181,6 +1181,24 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 		padding: 5px;
 		margin: 0;
 	}
-
+	.contact-me {
+		font-size: 40px;
+	}
+	#facebook-logo {
+		width: 60px;
+		height: 60px;
+	}
+	#insta-logo {
+		width: 60px;
+		height: 60px;
+	}
+	#mail-logo {
+		width: 60px;
+		height: 60px;
+	}
+	.foot-soc {
+		width: 60px;
+		height: 60px;
+	}
 
 }
