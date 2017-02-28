@@ -1182,7 +1182,11 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 		margin: 0;
 	}
 	.contact-me {
-		font-size: 40px;
+		font-size: 36px;
+		padding: 10px 0;
+	}
+	.contact-mobile {
+		margin: 0 0 10px 0;
 	}
 	#facebook-logo {
 		width: 60px;
@@ -1199,6 +1203,18 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	.foot-soc {
 		width: 60px;
 		height: 60px;
+	}
+	.contact-bar {
+		height: 320px;
+		background-size: cover;
+		background-position: bottom;
+	}
+	.contact-content {
+		height: 320px;
+	}
+	.contact-frame {
+		width: 500px;
+		height: 280px;
 	}
 
 }
