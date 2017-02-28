@@ -1113,6 +1113,13 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	.row-gap {
 		font-size: 60px;
 	}
+	.contact-me {
+		font-size: 40px;
+	}
+	.contact-frame {
+		width: 500px;
+		height: 370px;
+	}
 }
 @media screen and (max-width: 480px) {
 	.faceb-img {
