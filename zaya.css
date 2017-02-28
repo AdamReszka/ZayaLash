@@ -455,7 +455,7 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	color: #333333;
 	position: relative;
 	box-sizing: border-box;
-	text-align: justify;
+	text-align: center;
 }
 .row-about {
 	padding: 0;
