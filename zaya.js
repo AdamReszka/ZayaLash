@@ -6,7 +6,6 @@ $(document).ready(initAll);
 
 function initAll() {
 	$('nav ul li a').click(function(event){
-		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
 
 		$("html body").animate({
@@ -14,7 +13,6 @@ function initAll() {
 		}, 1000)
 	});
 	$('#move-arrow').click(function(event){
-		event.preventDefault();
 		$("html body").animate({
 			scrollTop: $(".row-gap").offset().top - 240
 		}, 1000)

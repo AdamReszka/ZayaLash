@@ -2,8 +2,11 @@
 <html lang="pl">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zaya Lash - o mnie</title>
 	<script type= "text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/zaya.js"></script>
 	<link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis|Khand:400,500,600|Merriweather&amp;subset=latin-ext">
 	<link rel="icon" href="favicon-96x96.png" type="image/png">
@@ -27,10 +30,34 @@
 					<li class="butt butt-darken"><a id="gallery" class="op" href="index.html#gallerySection"><p class="butt-p">Galeria</p></a></li>
 					<li class="butt butt-darken"><a id="about" class="op" href="index.html#aboutSection"><p class="butt-p">Oferta</p></a></li>
 					<li class="butt butt-darken"><a id="private" href="private.html"><p class="butt-p">O mnie</p></a></li>
+					<li class="butt"><a id="faq" href="faq.html"><p class="butt-p">FAQ</p></a></li>
 					<li class="butt butt-darken" ><a id="contact" class="op" href="index.html#contactSection"><p class="butt-p">Kontakt</p></a></li>
 				</ul>
+				<div class="burger-nav">
+					<a href="" id="hamburger" class="burger-link">
+						<img class="burger-img" src="images/burger.png" alt="burger">
+					</a>
+				</div>
 	</nav>
-	<div class="priv-cont"></div>
+	<ul id="burger-ul">
+					<li><a class="burger-li op" id="gallery"  href="">Galeria</a></li>
+					<li><a class="burger-li op" id="about" href="">Oferta</a></li>
+					<li><a class="burger-li op" id="private" href="">O mnie</a></li>
+					<li><a class="burger-li op" id="faq" href="">FAQ</a></li>
+					<li><a class="burger-li op" id="contact" href="">Kontakt</a></li>
+					<li class="burger-li add-soc"><a class="anchor" target="_blank" href="https://www.facebook.com/Zayalash"><img class="faceb-img" src="zaya_fb.png" alt="facebook"></a>
+					<a class="anchor" target="_blank" href="https://www.instagram.com/zayalash/"><img class="faceb-img" src="zaya_insta.png" alt="instagram"></a>
+					<a class="anchor" target="_blank" href="mailto:zaya.lash@gmail.com"><img class="faceb-img" src="zaya_email.png" alt="mail"></a></li>
+				</ul>
+	<div class="faq-cont">
+		<div class="row-faq">
+			<h1>Czy stylizacja rzęs niszczy rzęsy naturalne?</h1>
+			<p>Dobrze wykonana aplikacja nie ninszczy rzęs naturalnych. Jest to taka aplikacja, w której każda rzęsa jest bardzo precyzyjnie oddzielona od innych oraz taka, w której zbyt młode rzęsy zostają pominięte przy przedłużaniu. Rzęsy naturalne mogą jedynie delikatnie się wyprostować, jeżeli były wcześniej naturalnie mocno podkręcone. To podkręcenie wraca i staje się zauważalne z chwilą zrobienia sobie przerwy od przedłużania rzęs - każda nowo rosnąca rzęsa zachowuje swoje naturalne podkręcenie.Nie należy obawiać się, że rzęsy naturalne staną się rzadsze z powodu ich przedłużania lub zagęszczania - czasami faktycznie można to zauważyć - rzęsy są rzadsze w pewnym momencie, ale to dlatego, że dojrzałe rzęsy z czasem wypadają (około 5. lub 6. tygodnia), a w ich miejscu muszą wyrosnąc nowe. Aby były one zauważalne musi minąć około 2-3 tygodnie i tylko rzęsę w takim wieku można przedłużyć (młodszych, tzn. krótszych nie wolno, gdyż ciężar rzęsy syntetycznej spowoduje, że nasza własna wypadnie przedwcześnie). Proces ten dzieje się cały czas, tylko na codzień nie zwracamy na to uwagi, nie jest to aż tak zauważalne, ponieważ rzęsy pomalowane tuszem są posklejne i cały czas mamy wrażenie, że jest ich tyle samo. Właściwe przedłużenie rzęs jest więc bezpieczne.</p></div>
+		<div class="row-faq">
+			<h1>Czy aplikacja rzęs może wywołać alergię/uczulenie?</h1>
+			<p>Jedynym zagrożeniem może okazać się klej, który bardzo rzadko, ale może okazać się uczulający dla pewnych pań. Uczulenie objawia się opuchnięciem powiek, zaczerwienieniem oczu oraz łzawieniem, możliwy jest też katar i gorączka. W przypadku wystąpienia takich objawów należy natychmiast skontaktować się ze stylistką i umówienie na ewentualne zdjęcie aplikacji.Istnieje możliwość wykonania stylizacji przy użyciu kleju typu „sensitive”, ale należy liczyć się z tym, że na uzupełnienie trzeba będzie przychodzić wcześniej, ponieważ jest on dużo słabszy niż zwykły klej.</p>
+		</div>
+	</div>
 	<footer class="main-footer footer-priv">
 			<div class="e-t-cont">
 		<p class="example-text">Copyright 2016 Zaya Lash | All rights reserved | powered by Reszka Design Studio</p>

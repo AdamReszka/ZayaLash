@@ -11,7 +11,6 @@ function initAll() {
 		$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
 		$(this).closest('#main-container-first').find('#burger-ul').fadeOut();
 		event = event || window.event;
-		event.preventDefault();
 		var sectionID = event.currentTarget.id + "Section";
 
 		$("html,body").animate({
@@ -134,11 +133,10 @@ function lightBox() {
 
 function burgerMenu() {
 	console.log("function was started");
-	$("a").on('click', function(event) {
-		event.preventDefault();
-	});
+	// $("a").on('click', function(event) {
+	// });
 	$("#hamburger").on('click', function(event){
-		event.preventDefault();
+		// event.preventDefault();
 		$(this).closest('#homeSection').find("#main-navigate").toggleClass('nav-darken-two');
 		if ($(this).closest('#main-container-first').find('#burger-ul').hasClass('open')) {
 			$(this).closest('#main-container-first').find('#burger-ul').removeClass('open').fadeOut();
