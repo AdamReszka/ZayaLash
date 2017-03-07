@@ -460,7 +460,7 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 .faq-cont{
 	margin: 0 auto;
 	width: 1140px;
-	height: 1200px;
+	min-height: 1200px;
 	background-image: url('images/pat30.png');
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -471,7 +471,6 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 }
 .row-faq {
 	width: 100%;
-	min-height: 1150px;
 	margin: 0;
 	padding: 10px 30px;
 	min-height: 100px;
