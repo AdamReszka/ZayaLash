@@ -19,7 +19,7 @@ function initAll() {
 	});
 	$('#move-arrow').click(function(event){
 		event = event || window.event;
-		event.preventDefault();
+		
 		$("html,body").animate({
 			scrollTop: $(".row-gap").offset().top - 240
 		}, 1000)
@@ -134,10 +134,10 @@ function lightBox() {
 function burgerMenu() {
 	console.log("function was started");
 	$("a").on('click', function(event) {
-		event.preventDefault();
+		// event.preventDefault();
 	});
 	$("#hamburger").on('click', function(event){
-		event.preventDefault();
+		// event.preventDefault();
 		$(this).closest('#homeSection').find("body").toggleClass('nav-darken-two');
 		if ($(this).closest('body').find('#burger-ul').hasClass('open')) {
 			$(this).closest('body').find('#burger-ul').removeClass('open').fadeOut();

@@ -1053,6 +1053,9 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 .add-soc {
 	display: none;
 }
+#hamburger:hover {
+	cursor: pointer;
+}
 
 @media screen and (max-width: 1200px) {
 	.row-one {
