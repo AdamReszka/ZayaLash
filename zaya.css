@@ -189,9 +189,8 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	
 }
 .row-three {
-	padding: 70px 0 20px 0;
+	padding: 70px 0 50px 0;
 	max-width: 100%;
-	min-height: 1000px;
 	display: block;
 	background-image: url('images/pat30.png');
 	background-repeat: repeat;
@@ -201,6 +200,7 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	margin-right: auto;
 	/*background-color: rgba(50,85,97,1);*/
 	box-sizing: border-box;
+	position: relative;
 }
 .gallery-wrap {
 	min-height: 1000px;
@@ -217,6 +217,32 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	-webkit-column-count: 7;
 	-webkit-column-gap: 0;
 	-webkit-column-width: 240px;
+}
+.view-more {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #362F2B;
+	display: none;
+	opacity: 0.7;
+	z-index: 150;
+}
+.view-more p {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 30px 0;
+	color: #fff;
+	opacity: 1;
+}
+.view-less {
+	min-height: 1000px;
+}
+.view-full {
+	min-height: 1000px;
 }
 @media only screen and (min-width: 240px) {
     .masonry {
@@ -1164,6 +1190,13 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	}
 	.faq-cont {
 		flex-direction: column;
+	}
+	.view-more {
+		display: block;
+	}
+	.view-less {
+		height: 800px;
+		overflow: hidden;
 	}
 
 }

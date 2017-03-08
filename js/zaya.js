@@ -29,6 +29,7 @@ function initAll() {
 	resizeMe();
 	lightBox();
 	burgerMenu();
+	viewMore();
 	// slickRun();
 	
 };
@@ -149,5 +150,13 @@ function burgerMenu() {
 		}
 		
 	});
+}
+
+function viewMore() {
+	$('.view-more').on('click', function(){
+		$('.row-three').addClass('view-full');
+		$('.row-three').removeClass('view-less');
+		$('.view-more').css('display','none');
+	})
 }
 
