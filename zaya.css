@@ -1100,7 +1100,11 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 #hamburger:hover {
 	cursor: pointer;
 }
-
+@media screen and (max-width: 1300px) {
+	.row-gap {
+		background-position: left;
+	}
+}
 @media screen and (max-width: 1200px) {
 	.row-one {
 		width: 100%;
