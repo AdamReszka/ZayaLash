@@ -1103,6 +1103,7 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 @media screen and (max-width: 1300px) {
 	.row-gap {
 		background-position: left;
+		height: 40vh;
 	}
 }
 @media screen and (max-width: 1200px) {
@@ -1111,10 +1112,6 @@ box-shadow: 0px 12px 12px -8px rgba(0,0,0,0.75);
 	}
 	.row-two {
 		width: 100%;
-	}
-	.row-gap {
-		height: 40vh;
-		background-position: left;
 	}
 	.contact-bar {
 		height: 500px;
